@@ -1,0 +1,28 @@
+.explore {
+    text-align: center;
+    padding: 20px;
+    background: #f4f4f4;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
