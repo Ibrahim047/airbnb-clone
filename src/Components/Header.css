@@ -1,0 +1,68 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+
+   
+  }
+  
+  .header img {
+    height: 35px;
+  }
+  
+  .header-right button{
+    background-color: transparent;
+    border: 0;
+    font-size: 1rem;
+  }
+
+  .header-right{
+    background-color: #fff;
+    display: flex;
+    gap:5px ;
+
+  }
+  .header-right button{
+    padding: 5px;
+    border-radius: 50px;
+  }
+
+  .header-right button:hover{
+    background-color: #ddd;
+  }
+
+  .header-right i{
+    font-size: 1.1rem;
+  }
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #ff385c;
+  }
+  .header-left h2{
+    font-size: 1.5rem;
+    letter-spacing: -1px;
+  }
+  .header-right a{
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+  }
+#ahover:hover{
+  background-color: #eee;
+}
+  .signupmenu{
+    transition: all 0.3s ease;
+    border-radius: 50px;
+    padding: 10px 10px;
+    border: 1px solid #999;
+  }
+  .signupmenu:hover{
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.3);
+    background-color: #fafafa;
+  }

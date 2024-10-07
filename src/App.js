@@ -1,17 +1,13 @@
-import React from 'react';
-import './App.css';
-import Header from './Header';
-import Hero from './Hero';
-import ExploreSection from './ExploreSection';
-
-function App() {
+import React from 'react'
+import Header from './Components/Header'
+const App = () => {
   return (
-    <div className="app">
+    <div>
       <Header />
-      <Hero />
-      <ExploreSection />
+     
+      
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
