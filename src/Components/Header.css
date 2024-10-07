@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px ;
+    padding: 20px;
 
    
   }
@@ -44,15 +44,45 @@
   .header-left h2{
     font-size: 1.5rem;
     letter-spacing: -1px;
+    font-weight: 500;
   }
   .header-right a{
+    align-items: center;
     padding: 10px;
     border-radius: 50px;
     font-size: 14px;
     font-weight: 500;
     text-decoration: none;
-    color: #000;
   }
+
+.headermiddle{
+  font-size: 14px;  
+  font-weight: 500;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+  border-radius: 50px;
+  border: 1px solid #999;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+.headermiddle h2:nth-child(3){
+ color: #555;
+}
+.headermiddle h2{
+  border-left: 1px solid #999;
+  padding-left: 10px;
+ }
+ .headermiddle h2:nth-child(1) {
+  border-left: none;
+  padding-left: 10px;
+ }
+
 #ahover:hover{
   background-color: #eee;
 }
