@@ -1,0 +1,12 @@
+.cards{
+    width: 300px;
+    height: 300px;
+    margin: 20px 60px;
+    background-color: #000;
+    border-radius: 20px;
+    
+    overflow: hidden;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+

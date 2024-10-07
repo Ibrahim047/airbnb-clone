@@ -12,7 +12,7 @@ function Header() {
       <div className="header-center">
         <div className='headermiddle flex items-center gap-5'>
           <h2>Anywhere</h2>
-          <h2>Anyweek</h2>
+          <h2>Any week</h2>
           <h2>Add guests</h2>
           <button className='px-3 py-2 bg-rose-500 rounded-full text-white'><i class="ri-search-line"></i></button>
         </div>
