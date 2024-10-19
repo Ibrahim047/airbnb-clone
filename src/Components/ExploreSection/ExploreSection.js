@@ -27,10 +27,10 @@ function ExploreSection() {
     {id:18, title:"Nook", icon:<i className="ri-book-read-line"></i>},
     {id:19, title:"Escape", icon:<i className="ri-run-line"></i>},
     {id:20, title:"Hotspot", icon:<i className="ri-wifi-line"></i>},
-    {id:21, title:"Gem", icon:<i className="ri-diamond-line"></i>},
-    {id:22, title:"Paradise", icon:<i className="ri-palm-line"></i>},
+    {id:21, title:"Gem", icon:<i className="ri-door-lock-line"></i>},
+    {id:22, title:"Paradise", icon:<i className="ri-book-read-line"></i>},
     {id:23, title:"Nest", icon:<i className="ri-home-smile-line"></i>},
-    {id:24, title:"Panorama", icon:<i className="ri-panorama-line"></i>},
+    {id:24, title:"Panorama", icon:<i className="ri-home-heart-line"></i>},
   ]
 
   // Custom arrow components
