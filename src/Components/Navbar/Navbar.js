@@ -13,12 +13,12 @@ const Navbar = () => {
           <h2>Stays</h2>
           <h2>Experiences</h2>
         </div>
-        <div className='navbarsearch flex items-center gap-5'>
+        <div className='navbarsearch flex items-center '>
           <div className='navbarsearch-button font-normal'>
             <h4>Where</h4>
-            <input className="bg-transparent font-light w-52" type="text" placeholder='Search destination' />
+            <input className="bg-transparent font-light w-52 focus:outline-none focus:ring-0" type="text" placeholder='Search destination' />
           </div>
-          <div className='navbarsearch-button'>
+          <div className='navbarsearch-button w-32'>
             <h4>Check In</h4>
             <h6>Add dates</h6>
           </div>
@@ -26,16 +26,16 @@ const Navbar = () => {
             <h4>Check Out</h4>
             <h6>Add dates</h6>
           </div>
-          <div className="flex items-center px-2 hover:bg-black-100">
-          <div className='navbarsearch-button '>
-            <h4>Who</h4>
-            <h6>Add Guests</h6>
-          </div >
-          <i class="ri-search-line"></i>
-          </div>
+          <div className="flex rounded-full items-center px-2 gap-8 hover:bg-[#eee]">
+            <div id="fullsearchbutton" className='navbarsearch-button '>
+              <h4>Who</h4>
+              <h6>Add Guests</h6>
+              </div >
+              <i class="ri-search-line"></i>
+              </div>
 
-        </div>
-      </div>
+            </div>
+          </div>
 
       <div className="navbar-right">
         <a id="ahover" href="#">Airbnb your Home</a>

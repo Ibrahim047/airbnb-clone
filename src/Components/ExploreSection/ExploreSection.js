@@ -91,7 +91,7 @@ function ExploreSection() {
       <Slider {...settings}>
         {exploreicons.map((item) => (
           <div key={item.id} className='exploreicon'>
-            <div className='iconcontent'>
+            <div className='iconcontent border border-white border-[1px]'>
               {item.icon}
               <h3>{item.title}</h3>
             </div>
