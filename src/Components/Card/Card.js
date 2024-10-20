@@ -10,11 +10,11 @@ const Card = () => {
         <ImageSlider/>
       </div>
         <div className='card-info'>
-            <h2>Card Title</h2>
-            <h4>Property type</h4>
+            <h2>City Title</h2>
+            <h4>1878 Km's away</h4>
             <div className='guestbar flex gap-2'>
-              <h4>2 guests</h4>
-              <h4>1 bedroom</h4>
+            <i class="ri-group-line"></i>
+              <i class="ri-hotel-bed-line"></i>
               <h4>1 bed</h4>
               <h4>1 bath</h4>
             </div>

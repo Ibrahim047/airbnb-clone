@@ -36,7 +36,7 @@ const ImageSlider = () => {
     };
 
     // Set the images to the state
-    setImages(getRandomImages(5));
+    setImages(getRandomImages(19));
   }, []);
 
   // Handler for showing the next image
@@ -64,13 +64,13 @@ const ImageSlider = () => {
       {isHovered && (
         <>
           <button
-            className="absolute top-1/2 left-2 transform -translate-y-1/2 text-black bg-white bg-opacity-50 text-xl rounded-full px-2 py-1"
+            className="absolute top-1/2 left-2 transform -translate-y-1/2 text-black bg-white backdrop-blur-sm bg-opacity-80 text-xl rounded-full px-2 py-1"
             onClick={prevImage}
           >
             <i class="ri-arrow-left-s-line"></i>
           </button>
           <button
-            className="absolute top-1/2 right-2 transform -translate-y-1/2 text-xl text-black bg-white bg-opacity-50 rounded-full px-2 py-1"
+            className="absolute top-1/2 right-2 transform -translate-y-1/2 text-xl text-black backdrop-blur-sm bg-white bg-opacity-80 rounded-full px-2 py-1"
             onClick={nextImage}
           >
             <i class="ri-arrow-right-s-line"></i>

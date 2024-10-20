@@ -9,7 +9,7 @@ const App = () => {
     <div>
       <Navbar />      
       <ExploreSection />
-      <div className="flex gap-0 flex-wrap">
+      <div className="flex gap-0 flex-wrap px-16">
         <Card />
         <Card />
         <Card />

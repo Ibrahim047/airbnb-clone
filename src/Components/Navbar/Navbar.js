@@ -26,7 +26,7 @@ const Navbar = () => {
             <h4>Check Out</h4>
             <h6>Add dates</h6>
           </div>
-          <div className="flex rounded-full items-center px-2 gap-8 hover:bg-[#eee]">
+          <div className="flex rounded-full items-center px-2 gap-4 hover:bg-[#eee]">
             <div id="fullsearchbutton" className='navbarsearch-button '>
               <h4>Who</h4>
               <h6>Add Guests</h6>
